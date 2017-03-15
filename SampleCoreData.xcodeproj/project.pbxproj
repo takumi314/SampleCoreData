@@ -14,6 +14,8 @@
 		E12451331E798EEF00736072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12451321E798EEF00736072 /* Assets.xcassets */; };
 		E12451361E798EEF00736072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12451341E798EEF00736072 /* LaunchScreen.storyboard */; };
 		E12451411E798EEF00736072 /* SampleCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12451401E798EEF00736072 /* SampleCoreDataTests.swift */; };
+		E124514C1E79914C00736072 /* AddTaskViewContbroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124514B1E79914C00736072 /* AddTaskViewContbroller.swift */; };
+		E124514D1E79914C00736072 /* AddTaskViewContbroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124514B1E79914C00736072 /* AddTaskViewContbroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		E124513C1E798EEF00736072 /* SampleCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12451401E798EEF00736072 /* SampleCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCoreDataTests.swift; sourceTree = "<group>"; };
 		E12451421E798EEF00736072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E124514B1E79914C00736072 /* AddTaskViewContbroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewContbroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 				E12451341E798EEF00736072 /* LaunchScreen.storyboard */,
 				E12451371E798EEF00736072 /* Info.plist */,
 				E124512F1E798EEF00736072 /* SampleCoreData.xcdatamodeld */,
+				E124514B1E79914C00736072 /* AddTaskViewContbroller.swift */,
 			);
 			path = SampleCoreData;
 			sourceTree = "<group>";
@@ -204,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E124514C1E79914C00736072 /* AddTaskViewContbroller.swift in Sources */,
 				E12451311E798EEF00736072 /* SampleCoreData.xcdatamodeld in Sources */,
 				E124512B1E798EEF00736072 /* ViewController.swift in Sources */,
 				E12451291E798EEF00736072 /* AppDelegate.swift in Sources */,
@@ -214,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E124514D1E79914C00736072 /* AddTaskViewContbroller.swift in Sources */,
 				E12451411E798EEF00736072 /* SampleCoreDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
