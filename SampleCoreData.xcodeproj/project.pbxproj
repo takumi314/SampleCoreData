@@ -420,6 +420,7 @@
 				E12451471E798EEF00736072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E12451481E798EEF00736072 /* Build configuration list for PBXNativeTarget "SampleCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				E124514A1E798EEF00736072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
