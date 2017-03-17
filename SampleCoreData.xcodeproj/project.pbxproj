@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E12451291E798EEF00736072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12451281E798EEF00736072 /* AppDelegate.swift */; };
-		E124512B1E798EEF00736072 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124512A1E798EEF00736072 /* ViewController.swift */; };
+		E124512B1E798EEF00736072 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124512A1E798EEF00736072 /* RootViewController.swift */; };
 		E124512E1E798EEF00736072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E124512C1E798EEF00736072 /* Main.storyboard */; };
 		E12451311E798EEF00736072 /* SampleCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E124512F1E798EEF00736072 /* SampleCoreData.xcdatamodeld */; };
 		E12451331E798EEF00736072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12451321E798EEF00736072 /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		E12451251E798EEF00736072 /* SampleCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12451281E798EEF00736072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E124512A1E798EEF00736072 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E124512A1E798EEF00736072 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		E124512D1E798EEF00736072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E12451301E798EEF00736072 /* SampleCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleCoreData.xcdatamodel; sourceTree = "<group>"; };
 		E12451321E798EEF00736072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				E12451281E798EEF00736072 /* AppDelegate.swift */,
-				E124512A1E798EEF00736072 /* ViewController.swift */,
+				E124512A1E798EEF00736072 /* RootViewController.swift */,
 				E124512C1E798EEF00736072 /* Main.storyboard */,
 				E12451321E798EEF00736072 /* Assets.xcassets */,
 				E12451341E798EEF00736072 /* LaunchScreen.storyboard */,
@@ -210,7 +210,7 @@
 			files = (
 				E124514C1E79914C00736072 /* AddTaskViewContbroller.swift in Sources */,
 				E12451311E798EEF00736072 /* SampleCoreData.xcdatamodeld in Sources */,
-				E124512B1E798EEF00736072 /* ViewController.swift in Sources */,
+				E124512B1E798EEF00736072 /* RootViewController.swift in Sources */,
 				E12451291E798EEF00736072 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
