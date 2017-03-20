@@ -66,7 +66,8 @@ class RootViewController: UIViewController {
         do {
             try managedContext.save()
             tasks.append(task)
-        } catch let error as? Error {
+        } catch {
+            let error = error as NSError
             print("Could not save. \(error), \(error.userInfo)")
         }
     }
@@ -83,7 +84,7 @@ class RootViewController: UIViewController {
                                 guard let textField = alert.textFields?.first,
                                     let nameToSave = textField.text else {
                                         return
-                                    }
+                                }
                                 self.names.append(nameToSave)
                                 self.tableView.reloadData()
         }
